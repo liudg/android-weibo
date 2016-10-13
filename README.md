@@ -20,7 +20,9 @@ Gradle version 2.14.1
 
 ## 开源项目
 [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
+
 [MultiImageSelector](https://github.com/lovetuzitong/MultiImageSelector)
+
 [fastjson](https://github.com/alibaba/fastjson)
 
 ## 关于我
