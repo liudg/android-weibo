@@ -14,7 +14,7 @@ Gradle version 2.14.1
 
 ## 项目截图
 
-![](https://github.com/liudg/android-weibo/blob/master/screenshot/Screenshot_2016-10-13-15-52-21.png)
+![](https://github.com/liudg/android-weibo/raw/master/screenshot/Screenshot_2016-10-13-15-52-21.png)
 ![](https://github.com/liudg/android-weibo/blob/master/screenshot/Screenshot_2016-10-13-15-52-54.png)
 ![](https://github.com/liudg/android-weibo/blob/master/screenshot/Screenshot_2016-10-13-15-55-28.png)
 
