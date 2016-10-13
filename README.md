@@ -15,8 +15,15 @@ Gradle version 2.14.1
 ## 项目截图
 
 ![](https://github.com/liudg/android-weibo/raw/master/screenshot/Screenshot_2016-10-13-15-52-21.png)
-![](https://github.com/liudg/android-weibo/blob/master/screenshot/Screenshot_2016-10-13-15-52-54.png)
-![](https://github.com/liudg/android-weibo/blob/master/screenshot/Screenshot_2016-10-13-15-55-28.png)
+![](https://github.com/liudg/android-weibo/raw/master/screenshot/Screenshot_2016-10-13-15-52-54.png)
+![](https://github.com/liudg/android-weibo/raw/master/screenshot/Screenshot_2016-10-13-15-55-28.png)
 
+## 开源项目
+[Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
+[MultiImageSelector](https://github.com/lovetuzitong/MultiImageSelector)
+[fastjson](https://github.com/alibaba/fastjson)
 
+## 关于我
+
+在校学生，热爱Android开发，欢迎一起交流学习[联系我](mailto:liudg95@gmail.com)
 
