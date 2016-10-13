@@ -19,11 +19,11 @@ Gradle version 2.14.1
 ![](https://github.com/liudg/android-weibo/raw/master/screenshot/Screenshot_2016-10-13-15-55-28.png)
 
 ## 开源项目
-[Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
+* [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
 
-[MultiImageSelector](https://github.com/lovetuzitong/MultiImageSelector)
+* [MultiImageSelector](https://github.com/lovetuzitong/MultiImageSelector)
 
-[fastjson](https://github.com/alibaba/fastjson)
+* [fastjson](https://github.com/alibaba/fastjson)
 
 ## 关于我
 
