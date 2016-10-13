@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tit_left">16sp</dimen>
+    <dimen name="tit_center">20sp</dimen>
+    <dimen name="txt_size">15sp</dimen>
+    <dimen name="txt_body">14sp</dimen>
+    <dimen name="txt_caption">12sp</dimen>
+
+    <!--首页微博列表间距-->
+    <dimen name="home_weiboitem_space">8dp</dimen>
+</resources>

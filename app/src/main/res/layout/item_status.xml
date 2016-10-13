@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_card_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white2gray_sel"
+    android:orientation="vertical">
+
+    <!--发微博人的信息-->
+    <include layout="@layout/include_avatar" />
+
+    <!--微博内容-->
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/TextViewBody"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-12dp"
+        android:padding="12dp" />
+
+    <!--微博配图-->
+    <include
+        android:id="@+id/include_status_image"
+        layout="@layout/include_status_image"
+        android:visibility="gone" />
+
+    <!--引用微博-->
+    <include
+        android:id="@+id/include_retweeted_status"
+        layout="@layout/include_retweeted_status"
+        android:visibility="gone" />
+
+    <!--底部菜单-->
+    <include
+        android:id="@+id/il_bottom_control"
+        layout="@layout/include_status_controlbar" />
+
+</LinearLayout>

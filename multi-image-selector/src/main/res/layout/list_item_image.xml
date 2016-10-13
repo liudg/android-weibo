@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.nereo.multi_image_selector.view.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.nereo.multi_image_selector.view.SquaredImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/default_error" />
+
+    <View
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/checkmark"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/btn_unselected" />
+
+</me.nereo.multi_image_selector.view.SquareFrameLayout>

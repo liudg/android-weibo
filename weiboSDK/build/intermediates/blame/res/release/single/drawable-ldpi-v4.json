@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_logo.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_with_text.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_with_text.png"
+    },
+    {
+        "merged": "E:\\Android\\WeiBo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png",
+        "source": "E:\\Android\\WeiBo\\weiboSDK\\src\\main\\res\\drawable-ldpi\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png"
+    }
+]

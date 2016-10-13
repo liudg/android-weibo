@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'liudong'
+            keyPassword 'liudong1995'
+            storeFile file('E:/Android/WeiBo/app/liudong.jks')
+            storePassword 'liudong1995'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.liudong.weibo"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':weiboSDK')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.alibaba:fastjson:1.1.50.android'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile project(':multi-image-selector')
+    compile 'com.android.support:design:23.4.0'
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.liudong.weibo.activity.ImageBrowserActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_image_brower"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_image_index"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_oval_rect_agray"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="1/9"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/tit_center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="56dp"
+            android:layout_height="36dp"
+            android:background="@drawable/shape_corner_rect_agray"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="保存"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btn_original_image"
+            android:layout_width="56dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/shape_corner_rect_agray"
+            android:gravity="center"
+            android:text="原图"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liudong.weibo.activity.GuideActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/point1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_type22_point_highlighted"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <ImageView
+            android:id="@+id/point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_type22_point"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <ImageView
+            android:id="@+id/point3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_type22_point"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <ImageView
+            android:id="@+id/point4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_type22_point"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

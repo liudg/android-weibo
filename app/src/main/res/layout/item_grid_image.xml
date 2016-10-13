@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/iv_images"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_images"
+        android:layout_alignRight="@+id/iv_images"
+        android:visibility="gone" />
+
+    <!--删除按钮-->
+    <ImageView
+        android:id="@+id/iv_delete_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/iv_images"
+        android:src="@mipmap/trend_photo_close"
+        android:visibility="gone" />
+
+</RelativeLayout>

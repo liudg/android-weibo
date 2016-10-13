@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_status_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white2gray_sel"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_status_count"
+            style="@style/TextViewBody" />
+
+        <TextView
+            style="@style/TextViewBody"
+            android:text="微博"
+            android:textColor="@color/colorLightGray"
+            android:textSize="@dimen/txt_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_follow_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white2gray_sel"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_follow_count"
+            style="@style/TextViewBody" />
+
+        <TextView
+            style="@style/TextViewBody"
+            android:text="关注"
+            android:textColor="@color/colorLightGray"
+            android:textSize="@dimen/txt_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fans_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white2gray_sel"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_fans_count"
+            style="@style/TextViewBody" />
+
+        <TextView
+            style="@style/TextViewBody"
+            android:text="粉丝"
+            android:textColor="@color/colorLightGray"
+            android:textSize="@dimen/txt_caption" />
+    </LinearLayout>
+
+</LinearLayout>

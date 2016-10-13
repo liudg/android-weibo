@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liudong.weibo.activity.WriteCommentActivity">
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:id="@+id/sc_write"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/et_write_status"
+                style="@style/TextViewSubhead"
+                android:layout_width="match_parent"
+                android:background="@color/transparent"
+                android:gravity="top"
+                android:hint="写评论..."
+                android:maxLength="140"
+                android:minLines="3"
+                android:textColorHint="@color/colorLightGray" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gv_write_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/include_retweeted_status_card"
+                layout="@layout/include_retweeted_status_card"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dividing" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_gray_bar"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/comment_image_sel" />
+
+        <ImageView
+            android:id="@+id/iv_at"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/comment_at_sel" />
+
+        <ImageView
+            android:id="@+id/iv_topic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/comment_topic_sel" />
+
+        <ImageView
+            android:id="@+id/iv_emoji"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/comment_emoji_sel" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/comment_add_sel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_emotion_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_emotion_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RadioGroup
+            android:id="@+id/rg_emotion_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_emotion_dashboard_recently"
+                style="@style/RadioButtonEmotionDashboard"
+                android:text="最近" />
+
+            <RadioButton
+                android:id="@+id/rb_emotion_dashboard_default"
+                style="@style/RadioButtonEmotionDashboard"
+                android:checked="true"
+                android:text="默认" />
+
+            <RadioButton
+                android:id="@+id/rb_emotion_dashboard_emoji"
+                style="@style/RadioButtonEmotionDashboard"
+                android:text="Emoji" />
+
+            <RadioButton
+                android:id="@+id/rb_emotion_dashboard_langxiaohua"
+                style="@style/RadioButtonEmotionDashboard"
+                android:text="浪小花" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

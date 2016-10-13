@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">社交App</string>
+    <string name="action_settings">设置</string>
+    <string name="action_quit">退出</string>
+    <string name="tit_cloce">关闭</string>
+    <string name="auth_login">微博授权登陆</string>
+
+    <string name="loading">加载中…</string>
+    <string name="searchview">大家正在搜：古巨基</string>
+
+</resources>

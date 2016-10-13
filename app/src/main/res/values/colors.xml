@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorOrange">#FF8201</color>
+    <color name="colorOrangeDark">#d46303</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="alpha_white">#49ffffff</color>
+    <color name="colorTxtBlack">#232323</color>
+    <color name="colorLightGray">#898989</color>
+    <color name="colorGray">#707070</color>
+    <color name="txt_gray">#565656</color>
+
+    <color name="bg_gray">#eeee</color>
+    <color name="bg_agray">#49eeeeee</color>
+    <color name="bg_gray_pressed">#e8e8e8</color>
+    <color name="bg_retstatus_card">#eeeeee</color>
+    <color name="bg_gray_bar">#f8f8f8</color>
+    <color name="txt_at_blue">#507daf</color>
+    <color name="bg_gray_light">#fcfcfc</color>
+    
+    <color name="dividing">#cccccc</color>
+    <color name="dividing_bar">#dddddd</color>
+
+    <color name="rbed">#BDBDBD</color>
+    <color name="rbed_sel">#636363</color>
+    <color name="bg_rbed">#F5F5F5</color>
+    <color name="bg_rbed_sel">#DFDFDF</color>
+
+    <color name="header_search">#E6E6E6</color>
+    <color name="search_hint">#999999</color>
+    <color name="empty">#FCFCFC</color>
+
+    <color name="color_detailbar">#828282</color>
+</resources>

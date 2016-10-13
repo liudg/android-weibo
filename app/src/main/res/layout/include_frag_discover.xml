@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.liudong.weibo.widget.MyViewPager
+            android:id="@+id/vp_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/ll_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/vp_scroll"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:id="@+id/point1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:src="@mipmap/card_type22_point_highlighted" />
+
+            <ImageView
+                android:id="@+id/point2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/card_type22_point" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

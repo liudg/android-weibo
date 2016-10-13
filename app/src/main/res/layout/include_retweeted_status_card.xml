@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/bg_retstatus_card"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_rstatus_img"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_rstatus_username"
+            style="@style/TextViewSubhead"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv_rstatus_content"
+            style="@style/TextViewCaption"
+            android:layout_marginTop="8dp"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+</LinearLayout>
